@@ -1,6 +1,6 @@
 # proto_dispatcher
 
-##install file template
-cd xode\ template
-./install.sh
+>install file template
+>1.cd xode\ template
+>2../install.sh
 
