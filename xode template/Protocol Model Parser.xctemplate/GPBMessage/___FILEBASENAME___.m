@@ -13,11 +13,5 @@ ___IMPORTHEADER_protocolClass___
 
     return YES;
 }
-
-- (PTResult)getResult:(___VARIABLE_protocolClass___*)proto{
-
-    //parse your result code 
-    return MFRespRes_Unknown;
-}
 @end
 
