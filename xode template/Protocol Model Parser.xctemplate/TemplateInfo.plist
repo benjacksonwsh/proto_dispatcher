@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>A protocol class.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.m</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the Protocol Model Parser class to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Class Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Protocol name</string>
+			<key>Identifier</key>
+			<string>protocolClass</string>
+			<key>Name</key>
+			<string>Protocol Class</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>class</string>
+			<key>Default</key>
+			<string>GPBMessage</string>
+			<key>FallbackHeader</key>
+			<string>#import &lt;Foundation/Foundation.h&gt;</string>
+			<key>Values</key>
+			<array>
+				<string>GPBMessage</string>
+			</array>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Summary</key>
+	<string>A Protocol Model Parser class.</string>
+</dict>
+</plist>
