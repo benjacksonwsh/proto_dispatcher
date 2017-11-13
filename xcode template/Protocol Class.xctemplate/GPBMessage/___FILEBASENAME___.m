@@ -5,9 +5,6 @@
 #import "MFYYProtocolAdapterDefine.h"
 #import "FriendCommon.pbobjc.h"
 ___IMPORTHEADER_protocolClass___
-/*****************************************************
-#import "Simple.pbobjc.h"
-******************************************************/
 
 DEFINE_YYTPMFProtocolAdapter(___FILEBASENAMEASIDENTIFIER___ProtocolAdapter)
 IMPL_YYTPMFProtocolAdapter(___FILEBASENAMEASIDENTIFIER___ProtocolAdapter, ___VARIABLE_protocolClass___)
@@ -31,7 +28,7 @@ IMPL_YYTPMFProtocolAdapter(___FILEBASENAMEASIDENTIFIER___ProtocolAdapter, ___VAR
     REG_YYCLUSTER_PROTO(appid, Simple_PacketType_KSimpleResp, SimpleDataParser);
 
     response broadcast
-    REG_BROASTCAST(appid, Simple_PacketType_KSimpleBroast, self, @selector( onSimpleBroadCast:), SimpleBroadcast);
+    REG_BROADCAST(appid, Simple_PacketType_KSimpleBroast, self, @selector( onSimpleBroadCast:), SimpleBroadcast);
     ****************************************************/
 }
 
