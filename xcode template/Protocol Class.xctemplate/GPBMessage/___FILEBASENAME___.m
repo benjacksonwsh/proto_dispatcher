@@ -1,5 +1,4 @@
 #import "___FILEBASENAME___.h"
-#import "YYSDKLogic.h"
 #import "MFProtocolCoreHelper.h"
 #import "MFYYProtocolAdapter.h"
 #import "MFYYProtocolAdapterDefine.h"
